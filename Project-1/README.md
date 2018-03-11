@@ -2,7 +2,7 @@
 
 ## Ćuk Converter and Full-Bridge DC/DC Converter
 
-### Deadline: 19/03/2018 23:59
+### Deadline: 22/03/2018 23:59
 
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project.
@@ -25,7 +25,7 @@ a) Choose the minimum size of capacitor and inductances that can give produce st
 
 b) Plot the waveform of the input current, and also plot the input current for a similar sized buck-boost converter. Comment on the differences.
 
-C) Now assume your input voltage is not constant, but it has a 6th harmonic (300 Hz) in the form as:
+c) Now assume your input voltage is not constant, but it has a 6th harmonic (300 Hz) in the form as:
 
 Vin= 12 + 2.sin(2.π.300t)
 
