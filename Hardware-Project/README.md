@@ -4,7 +4,8 @@ Specs for the hardware project are listed below. You need to form a group of 2/3
 Once you determined your group members, please write it up in [this spreadsheet](https://docs.google.com/spreadsheets/d/1KAVsJwLUg4EU7Spf6T_P4cAQa5IwYKrkkvP4pl3IBME/edit?usp=sharing). 
 Also put the project number you would like to work on. One group per project is allowed. First come first served.
 
-|Project No.|Vin (V) |Vout (V)|Pout (W)|Topology|
+|Project No|Vin (V) |Vout (V)|Pout (W)|Topology|
+|---|---|---|---|---|
 |1|48|12|80|Forward|
 |2|48|12|80|Flyback|
 |3|48|24|100|Forward|
