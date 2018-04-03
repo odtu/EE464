@@ -6,15 +6,15 @@ Also put the project number you would like to work on. One group per project is 
 
 |Project No|Vin (V) |Vout (V)|Pout (W)|Topology|
 |---|---|---|---|---|
-|1|48|12|80|Forward|
-|2|48|12|80|Flyback|
-|3|48|24|100|Forward|
-|4|48|24|100|Flyback|
-|5|24|12|80|Forward|
-|6|24|12|80|Flyback|
-|7|12|48|80|Flyback|
-|8|230 AC|9|10|Flyback|
-|9|230 AC|15|15|Flyback|
+|1|48|12|80|Forward or Flyback|
+|2|48|12|80|Forward or Flyback|
+|3|48|24|100|Forward or Flyback|
+|4|48|24|100|Forward or Flyback|
+|5|24|12|80|Forward or Flyback|
+|6|24|12|80|Forward or Flyback|
+|7|12|48|80|Forward or Flyback|
+|8|230 AC|9|10|Forward or Flyback|
+|9|230 AC|15|15|Forward or Flyback|
 |10|48|12|80|Phase-Shifted Full Bridge|
 |11|48|24|100|Phase-Shifted Full Bridge|
 
