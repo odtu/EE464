@@ -1,10 +1,10 @@
-## Guideline for Project #1
+## Guideline for Project #2
 
-Here are the important points for Project #1
+Here are the important points for Project #2
 
-- You will complete the project in pairs. 
-- You will be assigned a private GitHub repo with your project partner. Each partner is required to contribute to the work.
-- This project is to be completed either in MATLAB Simulink or PSIM.
+- You will complete the project with your hardware project team.
+- You can create a repo in one of the team member's account, and add me as acollaborator, so I can access your files.
+- You can use any software tool you want.
 - At the end of the project, you are required to submit a project report (in PDF) as well as your simulation files.
 - Reports will be checked using Turnitin, and copying will not be tolerated.
 - No reports and commits will be accepted after the deadline.
@@ -55,13 +55,16 @@ Following grades will be applied for the technical parts:
 
 - Q1: 
     - a) 5pts
-    - b) 5pts
-    - c) 15pts
-- Q2:
+    - b) 10pts
+    - c) 5pts
+    - d) 10pts
+    - e) 5pts
+    - f) 5pts
+
+- Q2: (+25 pts if you implement your hardware topology)
     - a) 5pts
     - b) 5pts
-    - c) 10pts
+    - c) 5pts
     - d) 5pts
-    - e) 10pts
-    - f) 5pts
+    - e) 5pts
 
