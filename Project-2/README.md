@@ -10,6 +10,29 @@ In this project you are going to work with your hardware project partners (2-3 p
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project.
 
+
+### Q2) Full-Bridge Converter
+
+Design a full bridge converter with the following specs:
+
+- Input Voltage: 48 V
+- Output Voltage: -15 V
+- Load: Series R-L Load ( 1.2 Ω, 3mH)
+- Switching frequency: 20 kHz
+
+a) Implement the converter using bi-polar voltage switching PWM controller. Ideals switches may be assumed.Show that the converter vacancy generate both positive and negative voltages by choosing two example situations.
+
+b) Now produce the same voltage levels as in (a) but using uni-polar voltage switching PWM strategy. 
+
+c) For the positive voltage outputs in parts (a) and (b), take the Fourier-transform(FFT), to show it harmonic components. Compare and comment the results.
+
+d) Now assume, your switches have finite turn-on and turn-off time, and you need to implement 2µs dead time between top and bottom switching instants. Using a uni-polar PWM switching strategy, compare the output voltage for a output reference voltage of 12 V, with and without the dead-time. Compare and comment the results.
+
+e) You are now required to generate a sinusoidal voltage output with a peak voltage of 36V at 400 Hz. Plot the output voltage and current. You may add and additional filter in the output if required. Repeat the sinusoidal output generation with the dead-time. Compare and comment the results.
+
+f) Also discuss the effect of the dead time by comparing the fundamental component of sinusoidal output with and without the dead time. You can also present the harmonic components of both signals by taking FFT of the voltage waveforms.
+
+
 ## Q1) Isolated Converter Simulation
 
 In this step, you need to simulate the topology you had previously chosen for your hardware project. Input, output voltages and power requirements are same for the hardware requirements.
