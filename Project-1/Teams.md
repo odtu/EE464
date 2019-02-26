@@ -5,7 +5,7 @@
 | 1       	|  [Akın](http://github.com/akinsavkli)   	    | [Ali Aydın](http://github.com/aliaydin96)      	|
 | 2       	| [Ali Aydın Yamandağ](http://github.com/aliaydinyamandag)  |[Bahar](http://github.com/bulbulbahar) 
 | 3       	|  [Batuhan](http://github.com/batuhan-bulbul) 	|    [Berkay](http://github.com/berkaysaglam) 	|
-| 4       	|  [Cem](http://github.com/cemakinci)  	|     	| [Ekin Alp](http://github.com/ekinalpb) 
+| 4       	|  [Cem](http://github.com/cemakinci)  	|  [Ekin Alp](http://github.com/ekinalpb)    	| 
 | 5       	|  [Ekin Su](http://github.com/ekinsacin)   	|  [Enes](http://github.com/enesayaz)   	|
 | 6       	|  [Furkan Tokgöz](http://github.com/tokgozfurkan) 	|   [Gürkan Durmuş](http://github.com/gurkandyilmaz)  	|
 | 7       	| [Hakkı](http://github.com/hakkigulcu)   	|   [Hikmet Murat](http://github.com/hmurat)  	|
