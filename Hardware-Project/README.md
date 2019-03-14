@@ -20,7 +20,9 @@ Also put the project number you would like to work on. One group per project is 
     </thead>
     <tbody>
         <tr>
-            <td rowspan=7>**FLYBACK**</td>
+            <td rowspan=7>
+                FLYBACK
+            </td>
             <td rowspan=1>Minimum Input Voltage (V)</td>
             <td>24</td>
             <td>24</td>
@@ -28,7 +30,6 @@ Also put the project number you would like to work on. One group per project is 
             <td>24</td>
             <td>24</td>
         </tr>
-
         <tr>
                 <td rowspan=1>Maximum Input Voltage (V)</td>
                 <td>48</td>
@@ -44,6 +45,7 @@ Also put the project number you would like to work on. One group per project is 
                 <td>10</td>
                 <td>10</td>
                 <td>12</td>
+       </tr>
        <tr>
                 <td rowspan=1>Output Power (W)</td>
                 <td>30</td>
@@ -76,7 +78,6 @@ Also put the project number you would like to work on. One group per project is 
                 <td>2</td>
                 <td>2</td>
        </tr>
-       </tr>
     </tbody>
 <tbody>
     <tr>
@@ -89,7 +90,7 @@ Also put the project number you would like to work on. One group per project is 
         <th>FOR #5</th>
     </tr>
     <tr>
-        <td rowspan=7>**FORWARD**</td>
+        <td rowspan=7> FORWARD </td>
         <td rowspan=1>Minimum Input Voltage (V)</td>
         <td>24</td>
         <td>24</td>
@@ -97,7 +98,6 @@ Also put the project number you would like to work on. One group per project is 
         <td>24</td>
         <td>24</td>
     </tr>
-
     <tr>
             <td rowspan=1>Maximum Input Voltage (V)</td>
             <td>48</td>
@@ -223,14 +223,12 @@ You can get extra points in any of the following:
 The table given below shows the bonus points.
 
 <table>
-
     <tbody>
         <tr>
-            <td rowspan=9>**BONUS**</td>
+            <td rowspan=9>BONUS</td>
             <td rowspan=1>Efficiency</td>
             <td>100 * (Efficiency)<sup>2</sup> - 40</td>
         </tr>
-
         <tr>
                 <td rowspan=1>Closed Loop Digital Controller</td>
                 <td>20</td>
@@ -238,16 +236,14 @@ The table given below shows the bonus points.
         <tr>
                 <td rowspan=1>Closed Loop Analog Controller</td>
                 <td>40</td>
-
+       </tr>
        <tr>
                 <td rowspan=1>Printed Circuit Board (PCB)</td>
                 <td>30</td>
-
        </tr>
        <tr>
                 <td rowspan=1>Compactness</td>
                 <td>15</td>
-
        </tr>
        <tr>
                 <td rowspan=1>Soft Starting</td>
