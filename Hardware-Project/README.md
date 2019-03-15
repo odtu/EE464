@@ -16,6 +16,8 @@ Also put the project number you would like to work on. One group per project is 
             <th>FLY #3</th>
             <th>FLY #4</th>
             <th>FLY #5</th>
+            <th>FLY #6</th>
+            <th>FLY #7</th>
         </tr>
     </thead>
     <tbody>
@@ -29,6 +31,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>24</td>
             <td>24</td>
             <td>24</td>
+            <td>210 Vac</td>
+            <td>210 Vac</td>
         </tr>
         <tr>
                 <td rowspan=1>Maximum Input Voltage (V)</td>
@@ -37,6 +41,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>48</td>
                 <td>48</td>
                 <td>48</td>
+                <td>230 Vac</td>
+                <td>230 Vac</td>
         </tr>
         <tr>
                 <td rowspan=1>Output Voltage (V)</td>
@@ -45,6 +51,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>10</td>
                 <td>10</td>
                 <td>12</td>
+                <td>5</td>
+                <td>15</td>
        </tr>
        <tr>
                 <td rowspan=1>Output Power (W)</td>
@@ -53,6 +61,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>60</td>
                 <td>60</td>
                 <td>70</td>
+                <td>15</td>
+                <td>15</td>
        </tr>
        <tr>
                 <td rowspan=1>Output Volt. Peak-to-Peak Ripple (%)</td>
@@ -61,6 +71,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>4</td>
                 <td>4</td>
                 <td>4</td>
+                <td>5</td>
+                <td>5</td>
        </tr>
        <tr>
                 <td rowspan=1>Line Regulation (%)</td>
@@ -69,6 +81,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>2</td>
                 <td>2</td>
                 <td>2</td>
+                <td>3</td>
+                <td>3</td>
        </tr>
        <tr>
                 <td rowspan=1>Load Regulation (%)</td>
@@ -77,6 +91,8 @@ Also put the project number you would like to work on. One group per project is 
                 <td>2</td>
                 <td>2</td>
                 <td>2</td>
+                <td>3</td>
+                <td>3</td>
        </tr>
     </tbody>
 <tbody>
@@ -88,6 +104,8 @@ Also put the project number you would like to work on. One group per project is 
         <th>FOR #3</th>
         <th>FOR #4</th>
         <th>FOR #5</th>
+        <th>FOR #6</th>
+        <th>FOR #7</th>
     </tr>
     <tr>
         <td rowspan=7> FORWARD </td>
@@ -97,6 +115,8 @@ Also put the project number you would like to work on. One group per project is 
         <td>24</td>
         <td>24</td>
         <td>24</td>
+        <td>210 Vac</td>
+        <td>210 Vac</td>
     </tr>
     <tr>
             <td rowspan=1>Maximum Input Voltage (V)</td>
@@ -105,6 +125,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>48</td>
             <td>48</td>
             <td>48</td>
+            <td>230 Vac</td>
+            <td>230 Vac</td>
     </tr>
     <tr>
             <td rowspan=1>Output Voltage (V)</td>
@@ -113,6 +135,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>10</td>
             <td>10</td>
             <td>12</td>
+            <td>5</td>
+            <td>15</td>
    <tr>
             <td rowspan=1>Output Power (W)</td>
             <td>20</td>
@@ -120,6 +144,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>40</td>
             <td>40</td>
             <td>50</td>
+            <td>15</td>
+            <td>15</td>       
    </tr>
    <tr>
             <td rowspan=1>Output Volt. Peak-to-Peak Ripple (%)</td>
@@ -128,6 +154,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>2</td>
             <td>2</td>
             <td>2</td>
+            <td>3</td>
+            <td>3</td>
    </tr>
    <tr>
             <td rowspan=1>Line Regulation (%)</td>
@@ -136,6 +164,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>2</td>
             <td>2</td>
             <td>2</td>
+            <td>3</td>
+            <td>3</td>
    </tr>
    <tr>
             <td rowspan=1>Load Regulation (%)</td>
@@ -144,6 +174,8 @@ Also put the project number you would like to work on. One group per project is 
             <td>2</td>
             <td>2</td>
             <td>2</td>
+            <td>3</td>
+            <td>3</td>
    </tr>
    </tr>
 </tbody>
