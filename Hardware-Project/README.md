@@ -183,11 +183,9 @@ Also put the project number you would like to work on. One group per project is 
 
 Here are some important notes:
 
-- Line regulation is the deviation of percent output voltage when input voltage is changed from its minimum to maximum or vice versa.
+- Project specs are arranged such that there is not a significant difference in difficulty of implementation. 
 
-- Load regulation is the deviation of percent output voltage when load current is changed from 10% to 100% or vice versa.
-
-- Project specs are arranged such that there is not a significant difference regarding the implementation difficulty. Each project belongs to a converter topology has the same current rating.
+- You may also have a power conversion scheme in your mind. (Required for work, summer practice, for your hobby project etc.) You can propose other topologies and specs outside the ones listed above. Make sure the new project you propose involves some kind of magnetic design (because all of the above have).
 
 - Project development phase and final results must be open source. You are required to share the knowledge by properly prepared reports. All simulation files, PCB design files, bill of materials, design regarding magnetic elements should be made available as open access.
 
@@ -198,12 +196,13 @@ Here are some important notes:
     * High power density
     * Employing soft switching techniques
 
-
 - All of the additional converter merits and any other effort that you put outside this project definition will be awarded in grading, accordingly.
 
-- You may also have a power conversion scheme in your mind. (Required for work, summer practice, for your hobby project etc.) You can propose other topologies and specs outside the ones listed above. Make sure the new project you propose involves some kind of magnetic design (because all of the above have).
+- Line regulation is the deviation of percent output voltage when input voltage is changed from its minimum to maximum or vice versa.
 
-- Converters on breadboard are okay but we expect you to start early and exhibit your final design on a PCB.
+- Load regulation is the deviation of percent output voltage when load current is changed from 10% to 100% or vice versa.
+
+- Converters on breadboard are okay if it is working, but we expect you to start early and exhibit your final design on a PCB.
 
 - TI shares a lot of its designs, in detail. Please check: http://www.ti.com/general/docs/refdesignsearchresults.tsp
 
@@ -243,14 +242,13 @@ You can get extra points in any of the following:
 
 - **Compactness Bonus:** The expected volumes for each converter is different because of different ratings. The team's effort to minimize the volume will be evaluated separately. Compact projects will be rewarded with 15 pts.
 
-
 - **Soft Starting:** Applying soft starting techniques will be rewarded with 15 pts.
 
-- **Single Supply:** The projects which are able to operate fully with just one supply will be rewarded with 30 pts.
+- **Single Supply:** The projects which are able to operate fully with just one supply (and no powerbanks) will be rewarded with 30 pts.
 
-- **Non-Isolated Output:** If the isolation between the input side and output side is broken for any reason, 15 pts will be subtracted from overall point. Therefore, the reward is -15 pts.
+- **Non-Isolated Output:** If the isolation between the input side and output side is broken for any reason, 15 pts will be subtracted from the overall grade.
 
-- **Video:** Although video submission is not mandatory, you are free to submit a video for your project duration. Again feel free to get funny, and creative as well as describing your projects. More than one bonuses can be awarded.
+- **Video:** Although video submission is not mandatory, you are free to submit a video for your project duration. Again feel free to get funny, and creative as well as describing your projects. More than one video bonuses can be awarded.
 
 The table given below shows the bonus points.
 
