@@ -29,9 +29,9 @@ Your boss at Hebelsan requires you to design a converter which reduces 16 V DC t
 **2) Ćuk Converter Design**<br />
   **a)** Analytically prove that V<sub>out</sub>/V<sub>in</sub> transfer function of the Ćuk converter is equal to D/(1-D) in CCM.
 
-  **b)** Find the output voltage ripple formula analytically and calculate the required output capacitor, C<sub>2</sub> , value in order to have 2% voltage ripple.
+  **b)** Find the value of L<sub>1</sub>, L<sub>2</sub> inductances by assuming 10% ripple current.
 
-  **c)** Find the value of L<sub>1</sub>, L<sub>2</sub> inductances by assuming 10% ripple current.
+  **c)** Find the output voltage ripple formula analytically and calculate the required output capacitor, C<sub>2</sub> , value in order to have 2% voltage ripple.
 
   **d)** Find the value of C<sub>1</sub> capacitor by assuming 10% ripple voltage.
 
