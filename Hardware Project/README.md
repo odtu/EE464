@@ -1,6 +1,6 @@
 # EE464 Hardware Project
 
-### Deadlines:
+### Deadlines (To be postponed)
 - Complete Simulation Report - 16th of March
 - Presentation for Feedback Session - 23rd of March
 - Hardware Demo - 11th of May
@@ -124,6 +124,8 @@ Also put the project number you would like to work on. Maximum two teams can pic
 </tbody>
 </table>
 
+
+
 Here are some important notes:
 
 - Project specs are arranged such that there is not a significant difference in difficulty of implementation.
@@ -163,7 +165,46 @@ Here are some important notes:
 - The magnetic cores listed in [this spreadsheet](https://docs.google.com/spreadsheets/d/1HXe-ban1QV2iynLcxp-vsHEPFjtSYkQUeh2KFEf1brs/edit?usp=sharing) will be available in our laboratory. You can borrow those cores and return them at the end of the semester. Those magnetic cores are from Magnetics. For detailed information about the cores, you can visit the manufacturer website. Additionally, you can also use other magnetic cores if you wish.
 
 
+### Option-A: Hardware Implementation
+
+This option lets you stick with the original hardware implementation plan, but the bonus points and the deadlines will be modified accordingly. However, there is still uncertainty about whether the university will be opened in the summer period or not, so I think it is a safer bet to go with the option-B.
+
+### Option-B: Detailed Design and Simulation
+
+Instead of hardware implementation you are required to make detailed simulations and PCB layout design for your project. The draft plan is as follows:
+
+- **PCB Design:** You are required to design detailed printed circuit board design using [KiCad](https://www.kicad-pcb.org/), which is an open-source and free software.
+You need to implement and present the following in your design:
+
+- The circuit of your design in KiCad
+- PCB layout design, and the [gerber](https://en.wikipedia.org/wiki/Gerber_format) files for production ( (How to PCBs work?)[https://www.youtube.com/watch?v=H9pGbLJknDk])
+- Prepare a Bill of Materials (BOM) for the components that you used. You can use [one of KiCad's BOM tools](https://www.baldengineer.com/kicad-bom-introduction.html) or external tools.
+- (Bonus) Get a quote for manufacturing 1000 pieces of your converter. Get the prices of the components that you used (you can used   [DigiKey](https://www.digikey.com/), or iinternal tools of KiCad). Get a PCB manufacturing quote from [PCBWay](https://www.pcbway.com/), ((From Idea to PCB)[https://www.youtube.com/watch?v=35YuILUlfGs]). 
+- (Bonus) Generate a [3D view](https://kicad-pcb.org/discover/3dviewer/) of your design.
+
+- **Detailed Simulations:* You are required to improve the accuracy of your initial design simulations by including to following:
+
+- Non-ideal semiconductor characteristics (conduction loss, switching time forward voltage etc)
+- Non-ideal characteristics of your magnetic design such as coil resistance, leakage inductance (can be assumed 1-2% of the magnetizing inductance)
+- Non-ideal characteristics of the filter elements such as capacitor and inductor.
+
+
+Please don't try to include all these parameters at once. Add them one by one verifying the results at every step
+
+- (Bonus) Obtain the open loop bode-plot of your converter (you can use Matlab or LTSpice). You may assume ideal switches for this stage.
+- (Bonus) If you can find the spice models of your controller, model the circuit with the controller under different operating conditions (You cans start by checking the [TINA tool from TI](http://www.ti.com/tool/TINA-TI)).
+
+- **Efficiency and Thermal Analysis** 
+
+- Get the overall losses in your system (MOSFET, diode losses, transformer losses). Support your calculations with analytical calculations and simulation results.
+- Get the total losses for each semiconductor and choose a suitable heat-sink
+- Develop a thermal circuit and estimate the operating temperature under full load at the worst case.
+
+
+
 ### Grading
+
+#### To be announce later
 
 Project Outcomes:
 - **Preliminary Simulation Report and Presentation (20 pts):** A report that presents your design decisions, computer simulations, and component selection for the all parts of the project. Similar grading rules apply with previous projects (i.e. format, number of commits etc.) Each team should present their topology selection and project design. They should describe how they selected critical components and their plan for design and manufacturing. They should come up with their wounded transformers and inductors and basic experimental verifications.
