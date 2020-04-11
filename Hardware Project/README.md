@@ -179,7 +179,7 @@ You need to implement and present the following in your design:
 - The circuit of your design in KiCad
 - PCB layout design, and the [gerber](https://en.wikipedia.org/wiki/Gerber_format) files for production ( (How to PCBs work?)[https://www.youtube.com/watch?v=H9pGbLJknDk])
 - Prepare a Bill of Materials (BOM) for the components that you used. You can use [one of KiCad's BOM tools](https://www.baldengineer.com/kicad-bom-introduction.html) or external tools.
-- (Bonus) Get a quote for manufacturing 1000 pieces of your converter. Get the prices of the components that you used (you can used   [DigiKey](https://www.digikey.com/), or iinternal tools of KiCad). Get a PCB manufacturing quote from [PCBWay](https://www.pcbway.com/), ((From Idea to PCB)[https://www.youtube.com/watch?v=35YuILUlfGs]). 
+- (Bonus) Get a quote for manufacturing 1000 pieces of your converter. Get the prices of the components that you used (you can used   [DigiKey](https://www.digikey.com/), or iinternal tools of KiCad). Get a PCB manufacturing quote from [PCBWay](https://www.pcbway.com/), ((From Idea to PCB)[https://www.youtube.com/watch?v=35YuILUlfGs]).
 - (Bonus) Generate a [3D view](https://kicad-pcb.org/discover/3dviewer/) of your design.
 
 - **Detailed Simulations:* You are required to improve the accuracy of your initial design simulations by including to following:
@@ -191,10 +191,11 @@ You need to implement and present the following in your design:
 
 Please don't try to include all these parameters at once. Add them one by one verifying the results at every step
 
+- (Bonus) Derive the transfer function of the circuit and construct a compensator for closed loop control.
 - (Bonus) Obtain the open loop bode-plot of your converter (you can use Matlab or LTSpice). You may assume ideal switches for this stage.
-- (Bonus) If you can find the spice models of your controller, model the circuit with the controller under different operating conditions (You cans start by checking the [TINA tool from TI](http://www.ti.com/tool/TINA-TI)).
+- (Bonus) If you can find the spice models of your controller, model the circuit with the controller under different operating conditions (You cans start by checking the [TINA tool from TI](http://www.ti.com/tool/TINA-TI)). Add the compensator that you have designed previously to the simulation and observe closed loop control system. 
 
-- **Efficiency and Thermal Analysis** 
+- **Efficiency and Thermal Analysis**
 
 - Get the overall losses in your system (MOSFET, diode losses, transformer losses). Support your calculations with analytical calculations and simulation results.
 - Get the total losses for each semiconductor and choose a suitable heat-sink
