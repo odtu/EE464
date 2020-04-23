@@ -2,7 +2,7 @@
 
 ## Compensator Design for a Boost Converter
 
-### Deadline: 26/04/2020 23:59
+### Deadline: 28/04/2020 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add me(/ozank), Furkan(/furkankarakaya) or other Furkan(/tokgozfurkan) as a collaborator.
 
@@ -16,7 +16,7 @@ In this project, you need to design a controller for a boost converter. You can 
 
 **3)** Derive control-to-output CCM transfer function of an ideal boost converter in the standard form. Show your steps clearly. Use ***L*** for inductance, ***C*** for capacitance, ***R*** for load resistance and ***D*** for duty cycle.
 
-**4)** Obtain a bode plot for control-to-output transfer function of an ideal and a non-ideal boost converter on single graph. How do nonidealities affect the characteristic? Comment on phase margin & gain margin.
+**4)** Obtain a bode plot for control-to-output transfer function of an ideal and a non-ideal boost converter on single graph on MATLAB. How do nonidealities affect the characteristic? Comment on phase margin & gain margin.
 
 The circuit parameters are:
 * L = 10 uH, R<sub>L</sub> = 15 mohm
@@ -25,6 +25,8 @@ The circuit parameters are:
 * V<sub>o</sub> = 3.6 V
 * I<sub>o</sub> = 2 A <br/>
 * f<sub>sw</sub> = 50 kHz<br/>
+* V<sub>ref</sub> = 1.2 V<br/>
+* V<sub>osc</sub> = 1.8 V<br/>
 * You need to decide the duty-cycle for both cases.
 
 ![](NonIdealBoostConverterTF.jpg)
@@ -39,13 +41,13 @@ The circuit parameters are:
 
 **8)** Calculate the values of the circuit components for your compensator. Round up or down the component ratings to the available ratings. For example, 4.68 nF turns into 4.7 nF.
 
-**9)** Obtain the bode plot for your closed loop control. Show and comment on phase and gain margins.
+**9)** Obtain the bode plot for your loop transfer function. Show and comment on phase margin.
 
 **10)** Give the transient waveform for output voltage, inductor current and duty cycle (0<x<1) when load is switched from full to half. Explain what happens at that moment briefly.
 
 **11)** Give the transient waveform for output voltage, inductor current and duty cycle (0<x<1) when load is switched from half to full. Explain what happens at that moment briefly.
 
-**12)** Assume that you are obtaining the feedback from output using long cables. Therefore, the path inductance gets important. Add 200 nH on the feedback path and obtain the bode plot for closed loop control again. Compare and comment on the differences.
+**12)** Give the transient waveform for output voltage, inductor current, input voltage and duty cycle (0<x<1) when input voltage drops to 2.5 V as a step change. Explain what happens at that moment briefly. Does your compensator still helps to regulate output voltage?
 
 **13) Bonus** How much time did you spend for this homework? (Bonus)
 
