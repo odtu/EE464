@@ -2,7 +2,7 @@
 
 ## Compensator Design for a Boost Converter
 
-### Deadline: 28/04/2020 23:59
+### Deadline: 03/05/2020 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add me(/ozank), Furkan(/furkankarakaya) or other Furkan(/tokgozfurkan) as a collaborator.
 
