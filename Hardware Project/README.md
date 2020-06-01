@@ -3,7 +3,6 @@
 ### Deadlines (To be postponed)
 - Complete Simulation Report - 16th of March
 - Presentation for Feedback Session - 23rd of March
-- Hardware Demo - 11th of May
 - Final Report - 28th of June
 - Final Presentation - 29th of June - 1st of July
 
@@ -165,9 +164,9 @@ Here are some important notes:
 - The magnetic cores listed in [this spreadsheet](https://docs.google.com/spreadsheets/d/1HXe-ban1QV2iynLcxp-vsHEPFjtSYkQUeh2KFEf1brs/edit?usp=sharing) will be available in our laboratory. You can borrow those cores and return them at the end of the semester. Those magnetic cores are from Magnetics. For detailed information about the cores, you can visit the manufacturer website. Additionally, you can also use other magnetic cores if you wish.
 
 
-### Option-A: Hardware Implementation
+### ~~Option-A: Hardware Implementation~~
 
-This option lets you stick with the original hardware implementation plan, but the bonus points and the deadlines will be modified accordingly. However, there is still uncertainty about whether the university will be opened in the summer period or not, so I think it is a safer bet to go with the option-B.
+~~This option lets you stick with the original hardware implementation plan, but the bonus points and the deadlines will be modified accordingly. However, there is still uncertainty about whether the university will be opened in the summer period or not, so I think it is a safer bet to go with the option-B.~~
 
 ### Option-B: Detailed Design and Simulation
 
