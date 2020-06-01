@@ -4,8 +4,8 @@
 - Complete Simulation Report - 16th of March
 - Presentation for Feedback Session - 23rd of March
 - Hardware Demo - 11th of May
-- Final Report - 18th of May
-- Video - 20th of May
+- Final Report - 28th of June
+- Final Presentation - 29th of June - 1st of July
 
 
 Specs for the hardware project are listed below. You need to form a group of 3 students and reserve the project that you choose. You are not allowed to have a group with any of your group members from the first semester.
