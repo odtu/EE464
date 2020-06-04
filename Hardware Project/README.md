@@ -1,10 +1,10 @@
 # EE464 Hardware Project
 
-### Deadlines (To be postponed)
+### Deadlines
 - Complete Simulation Report - 16th of March
 - Presentation for Feedback Session - 23rd of March
-- Final Report - 28th of June
-- Final Presentation - 29th of June - 1st of July
+- Final Report - 24th of June
+- Final Presentation - 25th of June
 
 
 Specs for the hardware project are listed below. You need to form a group of 3 students and reserve the project that you choose. You are not allowed to have a group with any of your group members from the first semester.
