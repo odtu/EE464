@@ -192,7 +192,7 @@ Please don't try to include all these parameters at once. Add them one by one ve
 
 - (Bonus) Derive the transfer function of the circuit and construct a compensator for closed loop control.
 - (Bonus) Obtain the open loop bode-plot of your converter (you can use Matlab or LTSpice). You may assume ideal switches for this stage.
-- (Bonus) If you can find the spice models of your controller, model the circuit with the controller under different operating conditions (You cans start by checking the [TINA tool from TI](http://www.ti.com/tool/TINA-TI)). Add the compensator that you have designed previously to the simulation and observe closed loop control system. 
+- (Bonus) If you can find the spice models of your controller, model the circuit with the controller under different operating conditions (You cans start by checking the [TINA tool from TI](http://www.ti.com/tool/TINA-TI)). Add the compensator that you have designed previously to the simulation and observe closed loop control system.
 
 - **Efficiency and Thermal Analysis**
 
@@ -209,30 +209,24 @@ Please don't try to include all these parameters at once. Add them one by one ve
 Project Outcomes:
 - **Preliminary Simulation Report and Presentation (20 pts):** A report that presents your design decisions, computer simulations, and component selection for the all parts of the project. Similar grading rules apply with previous projects (i.e. format, number of commits etc.) Each team should present their topology selection and project design. They should describe how they selected critical components and their plan for design and manufacturing. They should come up with their wounded transformers and inductors and basic experimental verifications.
 
-- **Complete Design Report (40 pts):** A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.). Reports and all relevant files should be submitted from GitHub.
+- **Complete Design Report (50 pts):** A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.). Reports and all relevant files should be submitted from GitHub.
 
-- **Test Results (10 pts):** This section can be added into the design report, or submitted as a separate report. It should contain your results with the load running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (efficiency figures, start-up, ripple content, step-load response, low-voltage operation etc.). Discussions on discrepancies between simulation and experimental results.
+- **Complete Design Presentation (30 pts):** A presentation on your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.). Reports and all relevant files should be submitted from GitHub.
 
-- **Demo Day (30 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building a prototype, you will get zero points from the all hardware project (yes, even if you had the design report). In the demo day, I expect you to demonstrate following features:
+~~- **Test Results (10 pts):** This section can be added into the design report, or submitted as a separate report. It should contain your results with the load running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (efficiency figures, start-up, ripple content, step-load response, low-voltage operation etc.). Discussions on discrepancies between simulation and experimental results.~~
 
-    - To be able to support the rated load for 2 minutes
-    - Reasonable ripple free output voltage levels even with the load is varied
-    - To have reasonable efficiency (Input and output power should be measured)
+~~- **Demo Day (30 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building a prototype, you will get zero points from the all hardware project (yes, even if you had the design report). In the demo day, I expect you to demonstrate following features:~~
+
+
+
+    ~~ - To be able to support the rated load for 2 minutes~~
+    ~~ - Reasonable ripple free output voltage levels even with the load is varied~~
+    ~~ - To have reasonable efficiency (Input and output power should be measured)~~
 
 
 #### Bonus Parts
 
 You can get extra points in any of the following:
-
-- **Efficiency Bonus:** The bonus point will be calculated based on this formula: 100 * (Efficiency)<sup>2</sup> - 45 + I<sub>o</sub>. Note that you may get negative efficiency bonus depending on your converter efficiency and rated output current.
-
-- **Current Mode Control Bonus:** Implement a closed loop using current mode control such as average mode control or peak current control. This bonus cannot be got with only a voltage mode control.
-
-- **Analog Controller IC:** Projects with an integrated circuit analog controller (such as TL494) will be rewarded with extra point.
-
-- **PCB Bonus:** Implementing the project on a printed circuit board (PCB) will be rewarded.
-
-- **Industrial Design Bonus:** The expected volumes for each converter is different because of different ratings. The team's effort to minimize the volume will be evaluated separately. Compact and user friendly projects will be rewarded.
 
 - **Soft Starting:** Applying soft starting techniques will be rewarded.
 
@@ -242,11 +236,34 @@ You can get extra points in any of the following:
 
 - **Non-Isolated Output:** If the isolation between the input side and output side is broken for any reason, you will get a penalty with negative bonus.
 
-- **Utilization:** Tight semiconductor ratings will be rewarded. (?)
+- **Current Mode Control Bonus:** Implement a closed loop using current mode control such as average mode control or peak current control. This bonus cannot be got with only a voltage mode control.
 
-- **Video:** Although video submission is not mandatory, you are free to submit a video for your project duration. Again feel free to get funny, and creative as well as describing your projects. More than one video bonuses can be awarded.
+- **PCB Quotation:** Getting price from PCBWay for 1000 samples.
 
-- **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting on ODTUClass.
+- **3D View of PCB:** Rendered 3D view of designed PCB.
+
+- **Transfer Function Derivation:** Deriving control-to-output transfer function of converter.
+
+- **Open-loop Bode Plot:** Obtaining bode plot of converter.
+
+- **Closed-loop Simulation with controller:** Closed-loop control simulations with control IC.
+
+
+~~- **Efficiency Bonus:** The bonus point will be calculated based on this formula: 100 * (Efficiency)<sup>2</sup> - 45 + I<sub>o</sub>. Note that you may get negative efficiency bonus depending on your converter efficiency and rated output current.~~
+
+~~- **Analog Controller IC:** Projects with an integrated circuit analog controller (such as TL494) will be rewarded with extra point.~~
+
+~~- **PCB Bonus:** Implementing the project on a printed circuit board (PCB) will be rewarded.~~
+
+~~- **Industrial Design Bonus:** The expected volumes for each converter is different because of different ratings. The team's effort to minimize the volume will be evaluated separately. Compact and user friendly projects will be rewarded.~~
+
+~~- **Utilization:** Tight semiconductor ratings will be rewarded. (?)~~
+
+~~- **Video:** Although video submission is not mandatory, you are free to submit a video for your project duration. Again feel free to get funny, and creative as well as describing your projects. More than one video bonuses can be awarded.~~
+
+~~- **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting on ODTUClass.~~
+
+
 
 The table given below shows the bonus points.
 
@@ -254,52 +271,44 @@ The table given below shows the bonus points.
     <tbody>
         <tr>
             <td rowspan=12>BONUS</td>
-            <td rowspan=1>Efficiency</td>
-            <td> 100 * (Efficiency)<sup>2</sup> - 45 + I<sub>o</sub></td>
+            <td rowspan=1>Soft Starting</td>
+            <td>15</td>
         </tr>
         <tr>
-                <td rowspan=1>Current Mode Control</td>
-                <td>30</td>
+                <td rowspan=1>Single Supply</td>
+                <td>15</td>
         </tr>
         <tr>
-                <td rowspan=1>Analog controller IC</td>
-                <td>10</td>
-       </tr>
-        <tr>
-                <td rowspan=1>PCB</td>
-                <td>25</td>
-       </tr>
-       <tr>
-                <td rowspan=1>Industrial Design</td>
+                <td rowspan=1>Synchronous Switching</td>
                 <td>20</td>
        </tr>
-       <tr>
-                <td rowspan=1>Soft Starting</td>
-                <td>15</td>
-       </tr>
-       <tr>
-                <td rowspan=1>Single Supply</td>
-                <td>30</td>
-       </tr>
-       <tr>
-                <td rowspan=1>Synch Switching</td>
-                <td>30</td>
-       </tr>
-       <tr>
+        <tr>
                 <td rowspan=1>Non-Isolated Output</td>
-                <td>-30</td>
+                <td>-15</td>
        </tr>
        <tr>
-                <td rowspan=1>Utilization</td>
+                <td rowspan=1>Current Mode Control Bonus</td>
                 <td>15</td>
        </tr>
        <tr>
-                <td rowspan=1>Video</td>
-                <td>25</td>
+                <td rowspan=1>PCB Quotation</td>
+                <td>8</td>
        </tr>
        <tr>
-                <td rowspan=1>Karma</td>
-                <td>10</td>
+                <td rowspan=1>3D View of PCB</td>
+                <td>7</td>
+       </tr>
+       <tr>
+                <td rowspan=1>Transfer Function Derivation</td>
+                <td>15</td>
+       </tr>
+       <tr>
+                <td rowspan=1>Open-loop Bode Plot</td>
+                <td>15</td>
+       </tr>
+       <tr>
+                <td rowspan=1>Closed-loop Simulation with controller</td>
+                <td>20</td>
        </tr>
     </tbody>
 <tbody>
