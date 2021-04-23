@@ -59,12 +59,12 @@ If the report is not qualified well enough, the report will be rejected and stud
 Following grades will be applied for the technical parts:
 
 
-- Q2: 20 pts
+- Q1: 20 pts
 	- a) 4 pts
 	- b) 8 pts
 	- c) 8 pts
 
-- Q3: 54 pts
+- Q2: 54 pts
 
 	- a) 10 pts
 	- b) 9 pts
@@ -73,10 +73,10 @@ Following grades will be applied for the technical parts:
 	- e) 9 pts
 	- f) 8 pts
 
-- Q4: 26 pts
+- Q3: 26 pts
 
 	- a) 14 pts
 	- b) 6 pts
 	- c) 6 pts
 
-- Q5 (Bonus): 1 pts
+- Q4 (Bonus): 1 pts
