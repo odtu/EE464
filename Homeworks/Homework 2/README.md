@@ -2,7 +2,7 @@
 
 ## Full Bridge Isolating Converter Design
 
-### Deadline: 09/05/2020 23:59
+### Deadline: 16/05/2020 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add [Ogün](https://github.com/OgunAltun) as a collaborator.
 
