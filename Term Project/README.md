@@ -3,9 +3,9 @@
 ### Deadlines
 - Complete Simulation Report - 2nd of May
 - Presentation for Feedback Session - 8th of May
-- Final Report - 25th of June
-- Final Presentation - 26th of June
-- Video - 11th of July
+- Final Report - 3rd of July
+- Final Presentation - 13th of July
+- Video - 14th of July
 
 In Tesla Model S, a 400V high voltage battery is placed in order to supply power to motor drive unit. In addition to high voltage battery, Model S has a 12V low voltage battery. Low voltage electrical devices such as air conditioner, touchscreen, interior and exterior lights etc are powered by this battery.
 
