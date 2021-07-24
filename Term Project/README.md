@@ -84,3 +84,20 @@ TI shares a lot of its designs, in detail. Please check: http://www.ti.com/gener
 It is strongly advised to read application notes about your project topology. You can find converter designs on web and (partly) utilize their solution by properly citing them. Do not try to find an overall design to evade the design effort. We also have a large collection of converter designs published online.
 
 [Here](https://www.diyelectriccar.com/threads/tesla-dc-dc-converter-hacking.192042/) you can find the converter used in Tesla Model S. Cabling, connections etc may be useful for your designs.
+
+# Past Years' Projects
+
+### 2021 Teams
+
+- [Group Isolated](https://github.com/busranurkocak/EE464-Term-Project): Büşra Nur Koçak, Defne Nur Korkmaz, Mustafa Mert Sarıkaya
+- [Social Isolation](https://github.com/alibelli/EE464_term_project_Social_Isolation): Ali Belli, Ahmet Halis Sabırlı, Berkay Uzun
+- [PL Electronics](https://github.com/emin3397/EE464-Project): Emin Ün, Emre Karabakla, Görkem Gülletutan
+- [Martian Power Solutions](https://github.com/EnesCanbolat/EE464_Project): Ceyhun Koç, Eren Özkara, Enes Canbolat
+- [Power Rangers](https://github.com/cayunus/EE464-TermProject): Mehmet Kılıç, Halid Filiz, Yunus Çay
+- [Doge Power](https://github.com/mustafayildz/EE464-Term-Project-): Mustafa Yıldız, Onur Öztaş
+
+### 2021 Videos
+
+- [Social Isolation](https://www.youtube.com/watch?v=jwg66FybZuE) (Best Video Bonus Winner)
+- [Martian Power Solutions](https://www.youtube.com/watch?v=5G3i6zLux1E) (Best Video Bonus Winner)
+- [Power Rangers](https://www.youtube.com/watch?v=DTsM74_svPk) (Best Video Bonus Winner)
