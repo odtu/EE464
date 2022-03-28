@@ -1,5 +1,5 @@
 ﻿
-## Guideline for Homework #1
+## Guideline for Homework 1
 
 Here are the important points for homeworks
 
